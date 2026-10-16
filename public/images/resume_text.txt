@@ -1,0 +1,54 @@
+=== PAGE 1 ===
+ 
+SAI CHANDH PATHURI 
+Course : B.Tech, Computer Science & Engineering, 2027 
+Email : 231fa04672pathuri@gmail.com 
+LinkedIn: http://www.linkedin.com/in/pathurisaichandh  
+Mobile : +91 6281511563  
+CGPA : 7.30 
+ 
+ 
+SKILLS 
+• Python • C • Machine Learning(Scikit-learn, Pandas, NumPy) • Java 
+• AWS • SQL • MongoDB • VS Code, Colab 
+ 
+PROJECTS 
+Student Performance Prediction and Early Warning System  
+A real-time machine learning system that predicts student performance and identifies at-risk students for early intervention. 
+It provides a dashboard with actionable insights to improve academic outcomes. 
+Tech Stack 
+Frontend: React.js, HTML, CSS, JavaScript Backend: Python (Flask) Machine Learning: Scikit-learn, Pandas, NumPy     
+Database: MySQL 
+ 
+ACHIEVEMENTS AND EXTRACURRICULAR ACTIVITIES 
+Gold Medal – Table Tennis | NRIIT SARITAM Sports Fest, VIGNAN Intra-Uni Tournament & VCODE Department-Level Fest 
+Student Orientation Program Intern at Vignan University: Managed and led a group of 72 people; mentored juniors by 
+explaining how subjects connect to industry, research, and daily life. Successfully conducted Coding Geeks Club for 496 
+students, helping juniors achieve a smooth transition from secondary education to higher education. 
+Core Committee member of Vignan’s Mahotsav 2026, a national-level youth fest 
+Vice President of Team Vignan Sports Contingent: Managed a group of 5 verticals and 15 games, overseeing more than 500 
+members in total. 
+  
+CAREER OBJECTIVE 
+Motivated Computer Science and Engineering undergraduate with a strong foundation in machine learning, web development, 
+and cloud technologies. Proven leadership experience managing teams of 500+ members and mentoring over 400 students. 
+Published IEEE rese archer seeking an entry -level role to leverage technical and analytical skills to drive organizational goals.  
+ 
+ACADEMIC DETAILS 
+COURSE INSTITUTE/COLLEGE BOARD/UNIVERSITY SCORE YEAR 
+B.TECH Vignan University Vignan Foundation for science Technology and research 7.30/10.0  2027 
+CLASS XII Bashyam Junior College Andhra Pradesh Board of Intermediate Education 
+(BIEAP) 93.2% 2023 
+CLASS X Sri Chaitanya School CBSE Central Board of Secondary Education 72.2% 2021 
+PUBLICATIONS 
+Network Function Virtualization for Cloud and Edge Computing: A Comprehensive Survey and Future Research Directions,  
+P . Sai Chandh, G. Siva Sai Ruthvik, M. Siva Subrahmanyam (Equal Contributors)  
+Under the guidance of Dr. J. Vijitha Ananthi  
+eCF Paper ID: ICOIICS-112  
+IEEE 
+CERTIFICATIONS 
+HR Analytics issued by NPTEL | Silver + Elite Medal 
+E-Business issued by NPTEL 
+Certification in Advanced Idea Presentation Vardaan Ideathon 2025 
+Public Speaking Certification by VFSTR 
+B2-level Cambridge English Certification 

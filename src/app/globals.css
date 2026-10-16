@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --animate-spin-slow: spin 3s linear infinite;
+  --animate-spin-reverse-slow: spin-reverse 3s linear infinite;
+
+  @keyframes spin-reverse {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0deg); }
+  }
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+  --font-display: var(--font-outfit);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+:root {
+  --background: #FFF8F0;
+  --foreground: #1A0F0A;
+  --card: #FFFFFF;
+  --card-foreground: #1A0F0A;
+  --popover: #FFF8F0;
+  --popover-foreground: #1A0F0A;
+  --primary: #FF6B1A;
+  --primary-foreground: #FFFFFF;
+  --secondary: #FF8C42;
+  --secondary-foreground: #FFFFFF;
+  --muted: #F5EBE1;
+  --muted-foreground: #786B63;
+  --accent: #FFB347;
+  --accent-foreground: #1A0F0A;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #E8DCCB;
+  --input: #E8DCCB;
+  --ring: #FF6B1A;
+  --radius: 0.5rem;
+}
+
+body {
+  background-color: #FFFAF5;
+  background-image: 
+    radial-gradient(at 10% 10%, rgba(255, 179, 71, 0.15) 0px, transparent 50%),
+    radial-gradient(at 90% 10%, rgba(255, 107, 26, 0.1) 0px, transparent 50%),
+    radial-gradient(at 90% 90%, rgba(255, 179, 71, 0.15) 0px, transparent 50%),
+    radial-gradient(at 10% 90%, rgba(255, 107, 26, 0.1) 0px, transparent 50%);
+  color: var(--foreground);
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: var(--font-inter), sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground;
+  }
+}
